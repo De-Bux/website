@@ -16,6 +16,10 @@ h6 {
     color: white !important;
 }
 
+.nav li a:hover {
+    background-color: transparent !important;
+}
+
 .btn-primary {
     margin-left: 1em;
     background-color: transparent !important;
@@ -118,15 +122,23 @@ h6 {
     color: #4d92f9;
     padding-bottom: 4em;
     padding-top: 4em;
-    border-top: 2px solid #419bf0;
+    border-top: 2px solid #4d91f9;
 }
 
 .contactUs {
     background-color: #242d3d;
     margin-left: 0px;
     margin-right: 0px;
-    border-top: 2px solid #419bf0;
+    border-top: 2px solid #4d91f9;
     width: 100% !important;
+}
+
+.debuxLogo {
+    margin-top: 15.55em;
+}
+
+.gifs {
+    margin-top: 2em;
 }
 
 .contactUs .contactUsInner {
@@ -188,6 +200,10 @@ h6 {
     border-top: 2px solid #4d92f9;
 }
 
+.devName {
+    color: #4d92f9 !important;
+}
+
 .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
@@ -231,6 +247,10 @@ h6 {
         height: 8em;
         width: 8em;
         background-size: contain;
+    }
+    
+    .debuxLogo {
+        display: none;
     }
 }
 

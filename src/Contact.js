@@ -3,11 +3,13 @@ import React, { Component } from 'react';
 class Contact extends Component {
   render() {
     return (
+      
       <div className="container contactUs">
+      <a name="contact" />
       	<div className="row">
             <div className="col-md-6 col-md-offset-3 contactUsOuter">
               <div className="well well-sm contactUsInner">
-                <form action="mailto:you@yourwebsite.com" className="form-horizontal" method="POST" enctype="text/plain">
+                <form action="mailto:debuxdevtool@gmail.com" className="form-horizontal" method="POST" enctype="text/plain">
                 <fieldset>
                   <legend className="text-center">Contact us</legend>
           

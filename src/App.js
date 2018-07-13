@@ -7,7 +7,8 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Contact from './Contact';
 import Developers from './Developers';
-import demogif from './img/demo_1.gif';
+import demogif1 from './img/demo_1.gif';
+import demogif2 from './img/demo_2.gif';
 import DebuxLogo from './img/debuxLogo.png';
 
 
@@ -35,64 +36,42 @@ class App extends Component {
           </div>
         </div>
         
-        <section className="features-icons bg-light text-center">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="icon-screen-desktop m-auto text-primary"></i>
-                  </div>
-                  <h3>A Devs Delight</h3>
-                  <p className="lead mb-0">A Chrome Dev Tool for React-Redux Developers</p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="icon-layers m-auto text-primary"></i>
-                  </div>
-                  <h3>Parent-Child Node Trees</h3>
-                  <p className="lead mb-0">Be able to see your components, props, and state in real time!</p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="icon-check m-auto text-primary"></i>
-                  </div>
-                  <h3>Time Travel</h3>
-                  <p className="lead mb-0">View prior versions of your state in the Store in Redux.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        <a  name="services"></a>
+        <a  name="setup"></a>
         <div className="content-section-a">
           <div className="container">
             <div className="row">
-              <div className="col-lg-5 col-sm-6">
+              <div className="col-lg-6 col-sm-6">
                 <div className="clearfix"></div>
-                <h2 className="section-heading">--Set up--</h2>
+                <h2 className="section-heading">Install From Chrome Extension Store</h2>
                 <div className="lead">
                   <ol>
-                    <li>Install React DevTools</li>
-                    <li>Install Debux</li>
-                    <li>Run your React-Redux application or open a sight that uses React Fiber.</li>
-                    <li>Open Chrome Developer Tools, Click on the “>>” button and select Debux</li>
+                    <li>Install <a href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en">React DevTools</a></li>
+                    <li>Install <a href="https://chrome.google.com/webstore/detail/debux/ooihnkghpifccalpfakdnlolfaiidfjp?authuser=1">De-Bux</a> to your chrome://extensions from the <a href="https://chrome.google.com/webstore/category/extensions">Chrome Web Store</a>.</li>
+                    <li>Run your React-Redux application or open a site that uses React Fiber (React 16+).</li>
+                    <li>Open Chrome Developer Tools, Click on the “>>” button and select De-Bux</li>
+                    <li>Have Fun!</li>
+                  </ol>
+                </div>
+                <hr/>
+                <h2 className="section-heading">Build your own</h2>
+                <div className="lead">
+                  <ol>
+                    <li>Clone the repo and install dependendies: npm install</li>
+                    <li>Build De-Bux to be used in Chrome Dev Tools: npm run build or npm run watch</li>
+                    <li>In Chrome Browser, open more tools and Extensions tab and click 'Load Unpacked'</li>
+                    <li>Navigate to your local De-Bux directory and select the folder './debux/build'</li>
                     <li>Have Fun!</li>
                   </ol>
                 </div>
               </div>
-              <div className="col-lg-5 col-lg-offset-2 col-sm-6">
+              <div className="col-lg-4 col-lg-offset-1 col-sm-4 debuxLogo">
                 <img className="img-responsive" src={DebuxLogo} alt=""/>
               </div>
             </div>
           </div>
         </div>
-      
+        
+        <a  name="services"></a>
         <div className="content-section-b">
           <div className="container">
             <div className="row">
@@ -100,18 +79,25 @@ class App extends Component {
                 <div className="clearfix"></div>
                 <h2 className="section-heading">Intuitive Design<br/>For New React Devs</h2>
                 <p className="lead">
-                  Debux is a React-Redux DevTool designed for helping developers debug their 
-                  React applications more efficiently. Debux allows you to visualize the component hierarchy of 
+                  De-Bux is a React-Redux DevTool designed for helping developers debug their 
+                  React applications more efficiently. <br/><br/>Visualize the component hierarchy of 
                   your React application and your Redux global store side by side, making development a breeze. 
+                  <br/><br/>The UI is intuitive yet dynamic, giving developers control over what kind of data they want 
+                  to see and how they want to display it.<br/><br/> Additionally De-Bux implements time-travel functionality 
+                  by keeping a record of prior states, allowing them to be revisited. <br/><br/>De-Bux works with all standard
+                  React-Redux libraries.
                 </p>
               </div>
-              <div className="col-lg-5 col-sm-pull-6 col-sm-6">
-                <img className="img-responsive" src={demogif} alt=""/>
+              <div className="col-lg-6 col-sm-pull-6 col-sm-6 gifs">
+                <img className="img-responsive" src={demogif1} alt=""/>
+                <hr/>
+                <img className="img-responsive" src={demogif2} alt=""/>
               </div>
             </div>
           </div>
         </div>
         
+        <a name="team"/>
   	    <Developers />
   	    <Contact />
         <Footer />

@@ -14,7 +14,6 @@ class Developers extends Component {
     }
     return (
       <div className="banner">
-      <a name="contact"></a>
         <div className="container">
         <h2 style={title}>Meet the Team</h2>
           <div className="row">
@@ -22,25 +21,29 @@ class Developers extends Component {
               <a href="https://www.linkedin.com/in/jeffrey-schrock-a99094b5/" className="">
                 <img className="img-responsive img-circle" src={js} alt="Jeff Schrock"/>
               </a>
-              <h3>Jeffrey Schrock</h3>
+              <h3 className="devName">Jeffrey Schrock</h3>
+              <h5 className="devName">Software Engineer</h5>
             </div>
             <div className="col-xs-6 col-md-3 profiles">
               <a href="https://www.linkedin.com/in/alejandromromero/" className="">
                 <img className="img-responsive img-circle" src={ar} alt="Alejandro Romero"/>
               </a>
-              <h3>Alejandro Romero</h3>
+              <h3 className="devName">Alejandro Romero</h3>
+              <h5 className="devName">Software Engineer</h5>
             </div>
             <div className="col-xs-6 col-md-3 profiles">
               <a href="https://www.linkedin.com/in/wontaeh/" className="">
                 <img className="img-responsive img-circle" src={wh} alt="Wontae Han"/>
               </a>
-              <h3>Wontae Han</h3>
+              <h3 className="devName">Wontae Han</h3>
+              <h5 className="devName">Software Engineer</h5>
             </div>
             <div className="col-xs-6 col-md-3 profiles">
               <a href="https://linkedin.com/in/Shafayat-Alam" className="">
                 <img className="img-responsive img-circle" src={sa} alt="Shafayat Alam"/>
               </a>
-              <h3>Shafayat Alam</h3>
+              <h3 className="devName">Shafayat Alam</h3>
+              <h5 className="devName">Software Engineer</h5>
             </div>
           </div>
         </div>
