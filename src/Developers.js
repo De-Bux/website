@@ -28,7 +28,8 @@ class Developers extends Component {
               <a href="https://www.linkedin.com/in/alejandromromero/" className="">
                 <img className="img-responsive img-circle" src={ar} alt="Alejandro Romero"/>
               </a>
-              <h3 className="devName">Alejandro Romero</h3>
+              <h3 className="devName full-text">Alejandro Romero</h3>
+              <h3 className="devName short-text">Alex Romero</h3>
               <h5 className="devName">Software Engineer</h5>
             </div>
             <div className="col-xs-6 col-md-3 profiles">

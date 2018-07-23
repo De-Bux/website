@@ -9,8 +9,8 @@ import Contact from './Contact';
 import Developers from './Developers';
 import demogif1 from './img/demo_1.gif';
 import demogif2 from './img/demo_2.gif';
-import DebuxLogo from './img/debuxLogo.png';
-
+import Workflow from './img/Workflow.png';
+import Logo from './img/Logo.png';
 
 
 class App extends Component {
@@ -24,7 +24,8 @@ class App extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="intro-message">
-                  <h1>De-Bux</h1>
+                  <img className="mainLogo" src={Logo}/>
+                  <h1><de className="De">De</de><de className="Bux">-Bux</de></h1>
                   <h3>A React-Redux Visualizer</h3>
                   <hr className="intro-divider"/>
                   <h4>Check it out</h4>
@@ -64,8 +65,8 @@ class App extends Component {
                   </ol>
                 </div>
               </div>
-              <div className="col-lg-4 col-lg-offset-1 col-sm-4 debuxLogo">
-                <img className="img-responsive" src={DebuxLogo} alt=""/>
+              <div className="col-lg-4 col-lg-offset-1 col-sm-4 flowImg">
+                <img className="img-responsive" src={Workflow} alt=""/>
               </div>
             </div>
           </div>
@@ -90,8 +91,6 @@ class App extends Component {
               </div>
               <div className="col-lg-6 col-sm-pull-6 col-sm-6 gifs">
                 <img className="img-responsive" src={demogif1} alt=""/>
-                <hr/>
-                <img className="img-responsive" src={demogif2} alt=""/>
               </div>
             </div>
           </div>

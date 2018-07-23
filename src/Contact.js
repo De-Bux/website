@@ -9,7 +9,7 @@ class Contact extends Component {
       	<div className="row">
             <div className="col-md-6 col-md-offset-3 contactUsOuter">
               <div className="well well-sm contactUsInner">
-                <form action="mailto:debuxdevtool@gmail.com" className="form-horizontal" method="POST" enctype="text/plain">
+                <form action="mailto:debuxdevtool@gmail.com" className="form-horizontal" method="POST" encType="text/plain">
                 <fieldset>
                   <legend className="text-center">Contact us</legend>
           
